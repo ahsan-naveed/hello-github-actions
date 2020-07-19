@@ -5,15 +5,15 @@ author: "octocat@github.com"
 inputs:
   MY_NAME:
     description: "Who to greet"
-	required: true
-	default: "World"
+    required: true
+    default: "World"
   YOUR_NAME:
-	description: "Who to greet"
-	required: true
-	defaul: "Raymond"
+    description: "Who to greet"
+    required: true
+    defaul: "Raymond"
 runs:
-	using: "docker"
-	image: "Dockerfile"
+  using: "docker"
+  image: "Dockerfile"
 branding:
-	icon: "mic"
-	color: "purple"
+  icon: "mic"
+  color: "purple"
